@@ -23,6 +23,7 @@ namespace NETCore31
                     .ConfigureServices(ConfigureServices);
             });
 
+            _factory.CreateClient();
             Services = _factory.Services;
         }
         
